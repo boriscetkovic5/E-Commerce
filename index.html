@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <script src="https://kit.fontawesome.com/7c8e8b6c24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span><!-- end .nav-icon -->
+            <a href="index.html"><img src="./images/logo.svg" alt="logo"></a>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span><!-- end .nav-icon -->
+                <div class="cart-items"></div><!-- end .cart-items -->
+            </div><!-- end .cart-btn -->
+        </div><!-- end .navbar-center -->
+    </nav><!-- end .navbar -->
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">furniture collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div><!-- end .banner -->
+    </header><!-- end .hero-->
+
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div><!-- end .section-title -->
+        <div class="products-center"></div><!-- end .products-center -->
+    </section><!-- end .products -->
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+            </div><!-- end .cart-content -->
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div><!-- end .cart-footer -->
+        </div><!-- end .cart -->
+    </div><!-- end .cart-overlay -->
+
+    <script src="app.js"></script>
+</body>
+</html>
